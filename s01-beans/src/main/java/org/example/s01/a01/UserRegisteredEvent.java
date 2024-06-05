@@ -1,4 +1,4 @@
-package org.example.s01;
+package org.example.s01.a01;
 
 import org.springframework.context.ApplicationEvent;
 

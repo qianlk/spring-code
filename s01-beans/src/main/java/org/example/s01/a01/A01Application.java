@@ -1,9 +1,8 @@
-package org.example.s01;
+package org.example.s01.a01;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
-import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.support.DefaultSingletonBeanRegistry;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -37,7 +36,7 @@ public class A01Application {
 
         /*
         2. BeanFactory 的功能
-        - 方法表明上都是getBean
+        - 方法表面上都是getBean
         - 实际上控制反转,基本的依赖注入,直至Bean的生命周期的各种功能,都由它提供
          */
 
