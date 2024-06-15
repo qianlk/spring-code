@@ -9,7 +9,7 @@
         <property name="bean1" ref="bean1" />
     </bean>
 
-    <!--添加一系列后处理器-->
-    <context:annotation-config />
+    <!--添加一系列后处理器,等价于第三种配置类实现-->
+<!--    <context:annotation-config />-->
 
 </beans>

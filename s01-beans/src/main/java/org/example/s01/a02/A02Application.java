@@ -129,13 +129,13 @@ public class A02Application {
             return new TomcatServletWebServerFactory();
         }
 
-        // 前控制器
+        // 前控制器,所有的请求进入
         @Bean
         public DispatcherServlet dispatcherServlet() {
             return new DispatcherServlet();
         }
 
-        // 前控制器路径注册
+        // 前控制器路径注册, 关联DispatcherServlet和ServletWebServer
         @Bean
         public DispatcherServletRegistrationBean registerBean(DispatcherServlet dispatcherServlet) {
             return new DispatcherServletRegistrationBean(dispatcherServlet, "/");
